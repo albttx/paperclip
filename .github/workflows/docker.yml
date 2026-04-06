@@ -2,6 +2,10 @@ name: Docker
 
 on:
   push:
+    pull_requests:
+      branches:
+        - "master"
+        - "dev"
     branches:
       - "master"
       - "dev"
